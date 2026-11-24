@@ -1,0 +1,585 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow" data-podglad>
+<title>Okleiny motocrossowe z imieniem i numerem - ProMX</title>
+<meta name="description" content="Kompletne zestawy naklejek na motocykle crossowe i enduro 10 marek, numery startowe, bluzy MX i pokrowce siedzeń. Imię, numer i kolory w cenie zestawu.">
+<meta name="theme-color" content="#0A0A0A">
+<link rel="icon" href="img/favicon.png">
+<link rel="preload" href="fonts/saira-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/manrope-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" imagesrcset="img/tor-wyscig-480.webp 480w, img/tor-wyscig-720.webp 720w, img/tor-wyscig-960.webp 960w, img/tor-wyscig-1146.webp 1146w" imagesizes="(max-width:860px) 100vw, min(55vw,1150px)" fetchpriority="high">
+<style>
+@font-face{font-family:"Saira";font-style:normal;font-weight:100 900;font-display:swap;src:url(fonts/saira-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00F3,U+2013,U+2018-2019,U+201C-201E,U+2022,U+2026}
+@font-face{font-family:"Saira";font-style:normal;font-weight:100 900;font-display:swap;src:url(fonts/saira-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/manrope-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B2,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/manrope-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/manrope-latin.woff2) format("woff2");unicode-range:U+00C0-00D2,U+00D4-00F2,U+00F4-00FF}
+:root{--cz:#0A0A0A;--zo:#FFE500;--sz:#EEF0F2;--tx:#14161A;--mu:#555B66;--li:#D5D9DF;--hh:64px;--w:min(1240px,100% - 48px)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:var(--hh)}
+body{margin:0;font:400 16px/1.6 Manrope,system-ui,sans-serif;color:var(--tx);background:#fff;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{font-family:Saira,Manrope,sans-serif;line-height:1.08;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(30px,3.5vw,50px);font-weight:800;font-style:italic}
+.wrap{width:var(--w);margin:0 auto}
+.sek{padding:clamp(64px,8vw,112px) 0}
+.sek-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px 40px;margin-bottom:clamp(28px,3.5vw,44px)}
+.sek-head p{margin:0;max-width:540px;color:var(--mu)}
+.szary{background:var(--sz)}
+.ciemny{background:var(--cz);color:#fff}
+.btn{--k:12px;display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 calc(var(--k) + 18px);font:700 16px/1 Saira,sans-serif;text-decoration:none;border:0;cursor:pointer;clip-path:polygon(var(--k) 0,100% 0,calc(100% - var(--k)) 100%,0 100%);transition:background .2s,color .2s}
+.btn-zo{background:var(--zo);color:var(--cz)}
+.btn-zo:hover,.btn-zo:focus-visible{background:#fff}
+.btn-ci{background:#26282C;color:#fff}
+.btn-ci:hover,.btn-ci:focus-visible{background:#3A3D42}
+.btn-cz{background:var(--cz);color:#fff}
+.btn-cz:hover,.btn-cz:focus-visible{background:#2A2C30}
+:focus-visible{outline:3px solid var(--zo);outline-offset:2px}
+/* naglowek */
+.top{position:sticky;top:0;z-index:50;background:var(--cz);color:#fff;height:var(--hh);border-bottom:1px solid #222}
+.top .wrap{height:100%;display:flex;align-items:center;gap:28px;width:min(1520px,100% - 48px)}
+.logo{display:block;flex:none}
+.logo img{width:148px;height:auto}
+.menu{display:flex;gap:clamp(14px,1.6vw,26px);margin-left:auto}
+.menu a{text-decoration:none;font:600 15px/1 Saira,sans-serif;padding:8px 0;border-bottom:2px solid transparent;white-space:nowrap}
+.menu a:hover,.menu a:focus-visible{border-color:var(--zo)}
+.menu a.akt{color:var(--zo)}
+.narz{display:flex;align-items:center;gap:18px;flex:none}
+.jezyk{font:700 14px/1 Saira,sans-serif;color:#B9BDC4}
+.koszyk{font:700 15px/1 Saira,sans-serif;background:none;border:1px solid #3A3D42;color:#fff;padding:9px 12px;cursor:pointer}
+.koszyk b{color:var(--cz);background:var(--zo);padding:2px 6px;margin-left:6px}
+.hamb{display:none;width:44px;height:44px;background:none;border:0;padding:10px;cursor:pointer}
+.hamb span{display:block;height:2px;background:#fff;margin:6px 0;transition:transform .2s,opacity .2s}
+.hamb[aria-expanded=true] span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+.hamb[aria-expanded=true] span:nth-child(2){opacity:0}
+.hamb[aria-expanded=true] span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+/* hero */
+.hero{display:grid;grid-template-columns:minmax(0,1fr) min(55%,1150px);min-height:calc(100svh - var(--hh));background:var(--cz);color:#fff}
+.hero-tekst{display:flex;flex-direction:column;justify-content:center;padding:48px clamp(28px,5vw,96px);max-width:820px;margin-left:auto;width:100%}
+.hero h1{font-size:clamp(40px,3.9vw,72px);font-weight:800;font-style:italic;line-height:1.02}
+.hero .lead{font-size:clamp(16px,1.15vw,19px);line-height:1.6;color:#C9CDD3;margin:22px 0 0;max-width:560px}
+.hero .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.mozaika{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:4px;min-height:0}
+.mozaika figure{margin:0;position:relative;overflow:hidden;min-height:0}
+.mozaika img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.m1{grid-column:1/3}
+.m1 img{object-position:50% 35%}
+/* marki */
+.marki{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:18px}
+.marka{display:flex;flex-direction:column;text-decoration:none;padding:12px 12px 14px;background:#fff;border:1px solid var(--li);transition:border-color .2s}
+.mfoto{display:block;aspect-ratio:3/2;overflow:hidden}
+.mfoto img{width:100%;height:100%;object-fit:contain;transition:transform .35s}
+.marka b{font:800 italic clamp(22px,2vw,32px)/1 Saira,sans-serif;color:transparent;-webkit-text-stroke:1.4px var(--cz);margin-top:12px;transition:color .2s;letter-spacing:.01em}
+.marka small{font-size:14px;color:var(--mu);margin-top:6px}
+.marka:hover,.marka:focus-visible{border-color:var(--cz)}
+.marka:hover b,.marka:focus-visible b{color:var(--cz)}
+.marka:hover img{transform:scale(1.04)}
+/* karty produktow: rama otwarta u dolu, cena w szczelinie jak podpis w logo */
+.tor{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 3*20px)/4);gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:4px 2px 8px;cursor:grab;overscroll-behavior-x:contain}
+.tor::-webkit-scrollbar{display:none}
+.tor.ciag{cursor:grabbing;scroll-snap-type:none}
+.tor.ciag *{pointer-events:none}
+.karta{scroll-snap-align:start;background:#fff;padding:16px 16px 18px;min-width:0}
+.foto{position:relative;border:2px solid var(--cz);border-bottom:0;padding:10px 10px 20px;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center}
+.foto img{max-height:100%;width:auto;object-fit:contain;user-select:none;-webkit-user-drag:none}
+.szczelina{display:flex;align-items:center;gap:10px;height:26px;margin-top:-13px;position:relative}
+.szczelina::before,.szczelina::after{content:"";flex:1;height:2px;background:var(--cz)}
+.cena{font:700 17px/1 Manrope,sans-serif;white-space:nowrap}
+.cena s{color:#8A9099;font-weight:500;font-size:14px;margin-right:4px}
+.karta h3{font-size:19px;font-weight:700;font-style:italic;margin-top:14px}
+.karta p{margin:4px 0 0;font-size:14px;color:var(--mu)}
+.strzalki{display:flex;gap:8px}
+.strz{width:46px;height:46px;border:2px solid var(--cz);background:#fff;font:700 20px/1 Saira,sans-serif;cursor:pointer}
+.strz:hover{background:var(--cz);color:#fff}
+.uwaga{font-size:13px;color:var(--mu);margin:22px 0 0}
+/* personalizacja */
+.perso{background:var(--zo);overflow:hidden}
+.perso .wrap{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:clamp(32px,6vw,96px);align-items:center}
+.perso h2{color:var(--cz)}
+.perso .wst{font-size:18px;margin:18px 0 26px;max-width:560px}
+.lista{list-style:none;margin:0 0 30px;padding:0;border-top:2px solid var(--cz)}
+.lista li{padding:14px 0;border-bottom:1px solid rgba(10,10,10,.28);display:grid;grid-template-columns:minmax(150px,.8fr) minmax(0,1.6fr);gap:6px 20px}
+.lista b{font:700 italic 18px/1.3 Saira,sans-serif}
+.lista span{font-size:15.5px;line-height:1.55}
+.numer{position:relative;padding:0 0 0 clamp(0px,4vw,60px)}
+.numer .duzy{position:relative;display:block;text-align:right;padding-right:.08em;margin-bottom:-.13em;font:900 italic clamp(120px,15vw,240px)/.8 Saira,sans-serif;color:transparent;-webkit-text-stroke:3px var(--cz);letter-spacing:-.03em;z-index:2;pointer-events:none}
+.numer figure{position:relative;z-index:1;margin:0;border:3px solid var(--cz);border-bottom:0;padding:12px 12px 0;background:var(--zo)}
+.numer figure img{width:100%;aspect-ratio:898/748;object-fit:cover}
+.numer figcaption{display:flex;align-items:center;gap:12px;height:30px;margin:0 -15px;transform:translateY(15px);font:700 14px/1 Saira,sans-serif;white-space:nowrap}
+.numer figcaption::before,.numer figcaption::after{content:"";flex:1;height:3px;background:var(--cz)}
+/* grupy produktow */
+.grupa+.grupa{margin-top:clamp(40px,5vw,64px)}
+.ghead{display:flex;align-items:baseline;gap:14px;margin-bottom:16px;border-bottom:2px solid var(--cz);padding-bottom:10px}
+.ghead h3{font-size:clamp(22px,2vw,28px);font-weight:800;font-style:italic}
+.ghead span{font:600 15px/1 Manrope,sans-serif;color:var(--mu)}
+#reszta .karta{border:1px solid var(--li)}
+/* galeria */
+.galeria{display:flex;gap:10px;overflow-x:auto;scrollbar-width:none;cursor:grab;padding-bottom:4px;overscroll-behavior-x:contain}
+.galeria::-webkit-scrollbar{display:none}
+.galeria.ciag{cursor:grabbing}
+.galeria.ciag *{pointer-events:none}
+.gfot{flex:none;height:374px;aspect-ratio:var(--r);padding:0;border:0;background:#1A1B1E;cursor:zoom-in}
+.gfot img{width:100%;height:100%;object-fit:cover;user-select:none;-webkit-user-drag:none}
+.ciemny .sek-head p{color:#B5BAC2}
+.ciemny .strz{background:transparent;color:#fff;border-color:#fff}
+.ciemny .strz:hover{background:#fff;color:var(--cz)}
+.ert{margin:26px 0 0;color:#B5BAC2;font-size:15px}
+.ert b{color:#fff}
+/* opinie */
+.opinie{grid-auto-columns:calc((100% - 2*20px)/3)}
+.opinia{scroll-snap-align:start;margin:0;background:#fff;padding:26px 26px 22px;display:flex;flex-direction:column;min-width:0;border-top:4px solid var(--cz)}
+.jez{align-self:flex-start;font:800 italic 13px/1 Saira,sans-serif;background:var(--cz);color:#fff;padding:5px 8px}
+.opinia blockquote{margin:16px 0 0;font-size:17px;line-height:1.55;font-weight:500}
+.tlum{margin:10px 0 0;font-size:14px;color:var(--mu)}
+.opinia figcaption{margin-top:auto;padding-top:18px;font-size:14px;color:var(--mu)}
+.opinia figcaption b{color:var(--tx);margin-right:6px}
+/* wlasny projekt */
+.projekt{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(36px,6vw,96px);align-items:start}
+.projekt .wst{font-size:18px;margin:18px 0 22px}
+.ceny{list-style:none;margin:0 0 26px;padding:0;border-top:2px solid var(--cz)}
+.ceny li{display:flex;justify-content:space-between;gap:12px;padding:13px 0;border-bottom:1px solid var(--li);font-size:16px}
+.ceny li b{white-space:nowrap}
+.ceny s{color:#8A9099;font-weight:500;margin-right:6px}
+.dane{font-size:15px;line-height:1.7;color:var(--mu)}
+.dane b{color:var(--tx)}
+.dane a{color:var(--tx);font-weight:700}
+.form{background:var(--sz);padding:clamp(22px,3vw,40px);display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.form h3{grid-column:1/-1;font-size:26px;font-weight:800;font-style:italic}
+.pole{display:flex;flex-direction:column;gap:6px;min-width:0}
+.pole.cale{grid-column:1/-1}
+.pole label{font-size:14px;font-weight:700}
+.pole input,.pole textarea,.pole select{font:inherit;font-size:16px;padding:12px 13px;border:1px solid #BFC4CC;background:#fff;color:var(--tx);border-radius:0;width:100%;min-width:0}
+.pole textarea{min-height:110px;resize:vertical}
+.pole input[type=file]{padding:10px;font-size:14px}
+.pole small{font-size:13px;color:var(--mu)}
+.form .btn{justify-self:start}
+.info{grid-column:1/-1;margin:0;font-size:14px;color:var(--mu)}
+.info[hidden]{display:none}
+/* stopka */
+.stopka{background:var(--cz);color:#B5BAC2;padding:56px 0 30px;font-size:15px}
+.sgrid{display:grid;grid-template-columns:1.4fr 1fr 1.2fr 1fr;gap:32px}
+.stopka h3{font-size:17px;color:#fff;font-style:italic;margin-bottom:12px}
+.stopka ul{list-style:none;margin:0;padding:0;line-height:2}
+.stopka a{text-decoration:none}
+.stopka a:hover{color:#fff;text-decoration:underline}
+.stopka .jezyki{margin-top:14px;font:700 14px/1 Saira,sans-serif;letter-spacing:.04em;color:#8F949C}
+.stopka .jezyki b{color:var(--zo)}
+.sdol{border-top:1px solid #2A2C30;margin-top:40px;padding-top:22px;display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between;align-items:center;font-size:14px}
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+/* powiekszenie i komunikat */
+.lb{border:0;padding:0;background:transparent;max-width:min(94vw,1100px);max-height:92vh}
+.lb::backdrop{background:rgba(0,0,0,.88)}
+.lb img{max-width:100%;max-height:86vh;width:auto;margin:0 auto}
+.lb button{display:block;margin:10px auto 0;background:var(--zo);border:0;font:700 15px Saira,sans-serif;padding:10px 18px;cursor:pointer}
+.toast{position:fixed;left:50%;bottom:20px;transform:translate(-50%,calc(100% + 40px));visibility:hidden;background:var(--cz);color:#fff;padding:13px 18px;font-size:14px;z-index:90;max-width:calc(100% - 32px);transition:transform .25s;border-left:4px solid var(--zo)}
+.toast.widac{transform:translate(-50%,0);visibility:visible}
+@media (max-width:1180px){
+ .menu{gap:14px} .menu a{font-size:14px} .jezyk{display:none}
+ .marki{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .tor{grid-auto-columns:calc((100% - 2*20px)/3)}
+}
+@media (max-width:1020px){
+ .menu{display:none}
+ .hamb{display:block}
+ .narz{margin-left:auto}
+ .menu.otw{display:flex;flex-direction:column;position:fixed;top:var(--hh);left:0;right:0;bottom:0;background:var(--cz);padding:18px 24px 32px;gap:0;overflow:auto;z-index:49}
+ .menu.otw a{font:700 italic 24px/1.2 Saira,sans-serif;padding:15px 0;border-bottom:1px solid #26282C}
+ .sgrid{grid-template-columns:1fr 1fr}
+ .perso .wrap,.projekt{grid-template-columns:minmax(0,1fr)}
+ .numer{max-width:560px}
+ .opinie{grid-auto-columns:calc((100% - 20px)/2)}
+}
+@media (max-width:860px){
+ :root{--hh:56px}
+ .logo img{width:112px}
+ .hero{display:flex;flex-direction:column}
+ .mozaika{order:-1;position:relative;flex:1 1 0;min-height:min(50vw,26svh);max-height:58svh;grid-template-rows:5fr 4fr;gap:3px}
+ .mozaika::after{content:"";position:absolute;left:0;right:0;bottom:0;height:34%;background:linear-gradient(transparent,var(--cz));pointer-events:none}
+ .hero-tekst{flex:0 0 auto;padding:6px 20px 26px;margin:0;max-width:none}
+ .hero h1{font-size:clamp(26px,min(7.6vw,4.9svh),40px);line-height:1.05}
+ .hero .lead{font-size:clamp(14.5px,min(4vw,2.45svh),17px);margin-top:12px;line-height:1.5}
+ .hero .cta{margin-top:24px;gap:10px;flex-wrap:nowrap}
+ .hero .cta .btn{flex:1 1 0;min-height:48px;padding:0 14px;font-size:15px;white-space:nowrap}
+}
+@media (max-width:640px){
+ :root{--w:calc(100% - 32px)}
+ .top .wrap{width:calc(100% - 24px);gap:12px}
+ .koszyk{padding:8px 10px;font-size:14px}
+ .marki{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .marka{padding:8px 8px 12px}
+ .marka b{font-size:21px;-webkit-text-stroke-width:1.2px}
+ .marka small{font-size:13px}
+ .tor{grid-auto-columns:min(74%,290px);gap:12px;margin-right:-16px;padding-right:16px}
+ .opinie{grid-auto-columns:min(86%,340px)}
+ .strzalki{display:none}
+ .karta{padding:12px 12px 16px}
+ .gfot{height:250px}
+ .lista li{grid-template-columns:minmax(0,1fr)}
+ .form{grid-template-columns:minmax(0,1fr)}
+ .sgrid{grid-template-columns:1fr 1fr;gap:28px 18px}
+ .sgrid>div:first-child{grid-column:1/-1}
+ .numer .duzy{-webkit-text-stroke-width:2px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header class="top">
+<div class="wrap">
+<a class="logo" href="#start" aria-label="ProMX - strona główna"><img src="img/promx-logo.png" width="320" height="101" alt="ProMX professional motocross decals"></a>
+<nav class="menu" id="menu" aria-label="Menu główne">
+<a href="#marki">Okleiny</a>
+<a href="#reszta">Numery startowe</a>
+<a href="#ubrania">Ubrania</a>
+<a href="#pokrowce">Pokrowce</a>
+<a href="#personalizacja">Personalizacja</a>
+<a href="#projekt">Własny projekt</a>
+<a href="#opinie">Opinie</a>
+<a href="#kontakt">Kontakt</a>
+</nav>
+<div class="narz">
+<span class="jezyk" title="Sklep w 7 językach">PL</span>
+<button class="koszyk" type="button" data-podglad-info>Koszyk<b>0</b></button>
+<button class="hamb" type="button" aria-label="Menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+</div>
+</div>
+</header>
+<main>
+<section class="hero" id="start" aria-labelledby="h1">
+<div class="hero-tekst">
+<h1 id="h1">Okleiny motocrossowe z Twoim imieniem i numerem</h1>
+<p class="lead">Kompletne zestawy naklejek na 10 marek, numery startowe, bluzy MX i pokrowce. Imię, numer i kolory wybierasz przy zamówieniu, bez dopłaty.</p>
+<div class="cta"><a class="btn btn-zo" href="#marki">Wybierz markę</a><a class="btn btn-ci" href="#projekt">Własny projekt</a></div>
+</div>
+<div class="mozaika">
+<figure class="m1"><img src="img/tor-wyscig-960.webp" srcset="img/tor-wyscig-480.webp 480w, img/tor-wyscig-720.webp 720w, img/tor-wyscig-960.webp 960w, img/tor-wyscig-1146.webp 1146w" sizes="(max-width:860px) 100vw, min(55vw,1150px)" width="1146" height="748" alt="Zawodnicy z numerem 44 i 7 na zakręcie toru" fetchpriority="high"></figure>
+<figure class="m2"><img src="img/tor-102-480.webp" srcset="img/tor-102-480.webp 480w, img/tor-102-659.webp 659w" sizes="(max-width:860px) 50vw, min(27.5vw,575px)" width="659" height="748" alt="Zawodnik z numerem 102 w terenie" decoding="async"></figure>
+<figure class="m3"><img src="img/tor-ktm-480.webp" srcset="img/tor-ktm-480.webp 480w, img/tor-ktm-720.webp 720w, img/tor-ktm-748.webp 748w" sizes="(max-width:860px) 50vw, min(27.5vw,575px)" width="748" height="747" alt="Motocykl KTM w okleinach Racing" decoding="async"></figure>
+</div>
+</section>
+
+<section class="sek" id="marki" aria-labelledby="h-m">
+<div class="wrap">
+<div class="sek-head"><h2 id="h-m">Wybierz markę motocykla</h2><p>Zestawy oklein dopasowane do modelu, pojemności i rocznika. Na zdjęciach wzór PRO w barwach każdej marki.</p></div>
+<div class="marki">
+<a class="marka" href="#wzory" aria-label="Okleiny KTM: 58 zestawów">
+<span class="mfoto"><img src="img/marka-ktm-400.webp" srcset="img/marka-ktm-400.webp 400w, img/marka-ktm-720.webp 720w" sizes="(max-width:640px) 46vw, (max-width:1100px) 30vw, 260px" width="720" height="471" alt="Zestaw naklejek PRO na motocykl Ktm" loading="lazy" decoding="async"></span>
+<b>KTM</b><small>58 zestawów</small></a>
+<a class="marka" href="#wzory" aria-label="Okleiny HONDA: 65 zestawów">
+<span class="mfoto"><img src="img/marka-honda-400.webp" srcset="img/marka-honda-400.webp 400w, img/marka-honda-720.webp 720w" sizes="(max-width:640px) 46vw, (max-width:1100px) 30vw, 260px" width="720" height="471" alt="Zestaw naklejek PRO na motocykl Honda" loading="lazy" decoding="async"></span>
+<b>HONDA</b><small>65 zestawów</small></a>
+<a class="marka" href="#wzory" aria-label="Okleiny YAMAHA: 64 zestawów">
+<span class="mfoto"><img src="img/marka-yamaha-400.webp" srcset="img/marka-yamaha-400.webp 400w, img/marka-yamaha-720.webp 720w" sizes="(max-width:640px) 46vw, (max-width:1100px) 30vw, 260px" width="720" height="471" alt="Zestaw naklejek PRO na motocykl Yamaha" loading="lazy" decoding="async"></span>
+<b>YAMAHA</b><small>64 zestawów</small></a>
+<a class="marka" href="#wzory" aria-label="Okleiny KAWASAKI: 62 zestawów">
+<span class="mfoto"><img src="img/marka-kawasaki-400.webp" srcset="img/marka-kawasaki-400.webp 400w, img/marka-kawasaki-720.webp 720w" sizes="(max-width:640px) 46vw, (max-width:1100px) 30vw, 260px" width="720" height="471" alt="Zestaw naklejek PRO na motocykl Kawasaki" loading="lazy" decoding="async"></span>
+<b>KAWASAKI</b><small>62 zestawów</small></a>
+<a class="marka" href="#wzory" aria-label="Okleiny SUZUKI: 62 zestawów">
+<span class="mfoto"><img src="img/marka-suzuki-400.webp" srcset="img/marka-suzuki-400.webp 400w, img/marka-suzuki-720.webp 720w" sizes="(max-width:640px) 46vw, (max-width:1100px) 30vw, 260px" width="720" height="471" alt="Zestaw naklejek PRO na motocykl Suzuki" loading="lazy" decoding="async"></span>
+<b>SUZUKI</b><small>62 zestawów</small></a>
+<a class="marka" href="#wzory" aria-label="Okleiny HUSQVARNA: 56 zestawów">
+<span class="mfoto"><img src="img/marka-husqvarna-400.webp" srcset="img/marka-husqvarna-400.webp 400w, img/marka-husqvarna-720.webp 720w" sizes="(max-width:640px) 46vw, (max-width:1100px) 30vw, 260px" width="720" height="471" alt="Zestaw naklejek PRO na motocykl Husqvarna" loading="lazy" decoding="async"></span>
+<b>HUSQVARNA</b><small>56 zestawów</small></a>
+<a class="marka" href="#wzory" aria-label="Okleiny GAS GAS: 56 zestawów">
+<span class="mfoto"><img src="img/marka-gasgas-400.webp" srcset="img/marka-gasgas-400.webp 400w, img/marka-gasgas-720.webp 720w" sizes="(max-width:640px) 46vw, (max-width:1100px) 30vw, 260px" width="720" height="471" alt="Zestaw naklejek PRO na motocykl Gas Gas" loading="lazy" decoding="async"></span>
+<b>GAS GAS</b><small>56 zestawów</small></a>
+<a class="marka" href="#wzory" aria-label="Okleiny SHERCO: 59 zestawów">
+<span class="mfoto"><img src="img/marka-sherco-400.webp" srcset="img/marka-sherco-400.webp 400w, img/marka-sherco-720.webp 720w" sizes="(max-width:640px) 46vw, (max-width:1100px) 30vw, 260px" width="720" height="471" alt="Zestaw naklejek PRO na motocykl Sherco" loading="lazy" decoding="async"></span>
+<b>SHERCO</b><small>59 zestawów</small></a>
+<a class="marka" href="#wzory" aria-label="Okleiny BETA: 61 zestawów">
+<span class="mfoto"><img src="img/marka-beta-400.webp" srcset="img/marka-beta-400.webp 400w, img/marka-beta-720.webp 720w" sizes="(max-width:640px) 46vw, (max-width:1100px) 30vw, 260px" width="720" height="471" alt="Zestaw naklejek PRO na motocykl Beta" loading="lazy" decoding="async"></span>
+<b>BETA</b><small>61 zestawów</small></a>
+<a class="marka" href="#wzory" aria-label="Okleiny STARK: 41 zestawów">
+<span class="mfoto"><img src="img/marka-stark-400.webp" srcset="img/marka-stark-400.webp 400w, img/marka-stark-720.webp 720w" sizes="(max-width:640px) 46vw, (max-width:1100px) 30vw, 260px" width="720" height="484" alt="Zestaw naklejek PRO na motocykl Stark" loading="lazy" decoding="async"></span>
+<b>STARK</b><small>41 zestawów</small></a>
+</div>
+</div>
+</section>
+
+<section class="sek szary" id="wzory" aria-labelledby="h-w">
+<div class="wrap">
+<div class="sek-head"><div><h2 id="h-w">Nowe wzory zestawów</h2></div><div class="strzalki" data-tor="t-wzory"><button class="strz" type="button" aria-label="Poprzednie" data-kier="-1">&lt;</button><button class="strz" type="button" aria-label="Następne" data-kier="1">&gt;</button></div></div>
+<p class="sek-opis" style="margin:-18px 0 28px;color:var(--mu);max-width:640px">Black Month: kompletne zestawy naklejek od 119&nbsp;€ zamiast 169&nbsp;€. Każdy z nowych wzorów jest dostępny dla wszystkich 10 marek.</p>
+<div class="tor" id="t-wzory" tabindex="0" aria-label="Nowe wzory zestawów">
+<article class="karta">
+<div class="foto"><img src="img/p36041-400.webp" srcset="img/p36041-400.webp 400w, img/p36041-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="483" alt="Kompletny zestaw naklejek Ktm Crusher" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>169&nbsp;€</s> <b>119&nbsp;€</b></span></div>
+<h3>KTM CRUSHER</h3><p>Kompletny zestaw naklejek</p>
+</article>
+<article class="karta">
+<div class="foto"><img src="img/p35805-400.webp" srcset="img/p35805-400.webp 400w, img/p35805-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="483" alt="Kompletny zestaw naklejek Yamaha Snow Camo" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>169&nbsp;€</s> <b>124&nbsp;€</b></span></div>
+<h3>YAMAHA SNOW CAMO</h3><p>Kompletny zestaw naklejek</p>
+</article>
+<article class="karta">
+<div class="foto"><img src="img/p35577-400.webp" srcset="img/p35577-400.webp 400w, img/p35577-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="483" alt="Kompletny zestaw naklejek Honda War Camo" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>169&nbsp;€</s> <b>119&nbsp;€</b></span></div>
+<h3>HONDA WAR CAMO</h3><p>Kompletny zestaw naklejek</p>
+</article>
+<article class="karta">
+<div class="foto"><img src="img/p35251-400.webp" srcset="img/p35251-400.webp 400w, img/p35251-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="483" alt="Kompletny zestaw naklejek Kawasaki Wings" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>169&nbsp;€</s> <b>119&nbsp;€</b></span></div>
+<h3>KAWASAKI WINGS</h3><p>Kompletny zestaw naklejek</p>
+</article>
+<article class="karta">
+<div class="foto"><img src="img/p34988-400.webp" srcset="img/p34988-400.webp 400w, img/p34988-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="483" alt="Kompletny zestaw naklejek Husqvarna Falcon" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>169&nbsp;€</s> <b>124&nbsp;€</b></span></div>
+<h3>HUSQVARNA FALCON</h3><p>Kompletny zestaw naklejek</p>
+</article>
+<article class="karta">
+<div class="foto"><img src="img/p35200-400.webp" srcset="img/p35200-400.webp 400w, img/p35200-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="483" alt="Kompletny zestaw naklejek Stark Wings" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>169&nbsp;€</s> <b>119&nbsp;€</b></span></div>
+<h3>STARK WINGS</h3><p>Kompletny zestaw naklejek</p>
+</article>
+<article class="karta">
+<div class="foto"><img src="img/p36424-400.webp" srcset="img/p36424-400.webp 400w, img/p36424-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="483" alt="Kompletny zestaw naklejek Beta Typo" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>169&nbsp;€</s> <b>119&nbsp;€</b></span></div>
+<h3>BETA TYPO</h3><p>Kompletny zestaw naklejek</p>
+</article>
+<article class="karta">
+<div class="foto"><img src="img/p36311-400.webp" srcset="img/p36311-400.webp 400w, img/p36311-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="483" alt="Kompletny zestaw naklejek Gas Gas Typo" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>169&nbsp;€</s> <b>119&nbsp;€</b></span></div>
+<h3>GAS GAS TYPO</h3><p>Kompletny zestaw naklejek</p>
+</article>
+</div>
+<p class="uwaga">Produkty, zdjęcia i ceny ze sklepu promx4riders.com, sprawdzone 24.11.2026.</p>
+</div>
+</section>
+
+<section class="sek perso" id="personalizacja" aria-labelledby="h-p">
+<div class="wrap">
+<div>
+<h2 id="h-p">Twoje imię, Twój numer, Twoje barwy</h2>
+<p class="wst">Personalizacja jest w cenie każdego zestawu. Przy zamówieniu ustawiasz:</p>
+<ul class="lista">
+<li><b>Motocykl</b><span>model, pojemność i rocznik, żeby naklejki pasowały do plastików</span></li>
+<li><b>Imię i numer</b><span>na tablicach numerowych i owiewkach</span></li>
+<li><b>Papier i laminat</b><span>także folia holograficzna i laminat z efektem brokatu</span></li>
+<li><b>Kolory</b><span>tło i cyfry, m.in. Honda Red, KTM Orange, Yamaha Blue, Kawasaki Green</span></li>
+<li><b>Własne logo</b><span>prześlij plik, a grafik umieści go w projekcie</span></li>
+</ul>
+<p style="margin:0 0 26px;max-width:560px">Zaznacz „weryfikuj grafikę”, a projekt przyjdzie mailem do akceptacji, zwykle w ciągu 3 dni roboczych.</p>
+<a class="btn btn-cz" href="#marki">Zacznij od marki</a>
+</div>
+<div class="numer">
+<span class="duzy" aria-hidden="true">119</span>
+<figure><img src="img/tor-garaz-480.webp" srcset="img/tor-garaz-480.webp 480w, img/tor-garaz-720.webp 720w, img/tor-garaz-898.webp 898w" sizes="(max-width:1020px) 92vw, 520px" width="898" height="748" alt="Zawodniczka na zielonym motocyklu z numerem 119" loading="lazy" decoding="async">
+<figcaption>numer 119 na tablicach i owiewkach</figcaption></figure>
+</div>
+</div>
+</section>
+
+<section class="sek" id="reszta" aria-labelledby="h-r">
+<div class="wrap">
+<div class="sek-head"><h2 id="h-r">Numery startowe, ubrania i pokrowce</h2><p>Numery z Twoim imieniem, bluzy MX w krojach Regular i SlimFit, T-shirty, bluzy z kapturem i pokrowce siedzeń.</p></div>
+<div class="grupa" id="numery">
+<div class="ghead"><h3 id="g0">Numery startowe</h3><span>od 39&nbsp;€</span></div>
+<div class="tor" tabindex="0" aria-labelledby="g0"><article class="karta">
+<div class="foto"><img src="img/p31961-400.webp" srcset="img/p31961-400.webp 400w, img/p31961-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="450" alt="Numery startowe: Rise" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>59&nbsp;€</s> <b>39&nbsp;€</b></span></div>
+<h3>RISE</h3><p>Numery startowe</p>
+</article>
+<article class="karta">
+<div class="foto"><img src="img/p31948-400.webp" srcset="img/p31948-400.webp 400w, img/p31948-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="450" alt="Numery startowe: Rapid" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>59&nbsp;€</s> <b>39&nbsp;€</b></span></div>
+<h3>RAPID</h3><p>Numery startowe</p>
+</article>
+<article class="karta">
+<div class="foto"><img src="img/p30253-400.webp" srcset="img/p30253-400.webp 400w, img/p30253-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="450" alt="Numery startowe: Competitor" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>59&nbsp;€</s> <b>39&nbsp;€</b></span></div>
+<h3>COMPETITOR</h3><p>Numery startowe</p>
+</article>
+<article class="karta">
+<div class="foto"><img src="img/p2137-400.webp" srcset="img/p2137-400.webp 400w, img/p2137-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="450" alt="Numery startowe: Spike" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>59&nbsp;€</s> <b>39&nbsp;€</b></span></div>
+<h3>SPIKE</h3><p>Numery startowe</p>
+</article></div>
+</div>
+<div class="grupa" id="ubrania">
+<div class="ghead"><h3 id="g1">Bluzy MX</h3><span>od 69&nbsp;€</span></div>
+<div class="tor" tabindex="0" aria-labelledby="g1"><article class="karta">
+<div class="foto"><img src="img/p32582-400.webp" srcset="img/p32582-400.webp 400w, img/p32582-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="791" alt="Bluzy MX: Sharp" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>95&nbsp;€</s> <b>69&nbsp;€</b></span></div>
+<h3>SHARP</h3><p>Bluza MX Regular</p>
+</article>
+<article class="karta">
+<div class="foto"><img src="img/p30692-400.webp" srcset="img/p30692-400.webp 400w, img/p30692-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="830" alt="Bluzy MX: Black Maze" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>95&nbsp;€</s> <b>69&nbsp;€</b></span></div>
+<h3>BLACK MAZE</h3><p>Bluza MX Regular</p>
+</article>
+<article class="karta">
+<div class="foto"><img src="img/p30617-400.webp" srcset="img/p30617-400.webp 400w, img/p30617-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="835" alt="Bluzy MX: Camo" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>95&nbsp;€</s> <b>69&nbsp;€</b></span></div>
+<h3>CAMO</h3><p>Bluza MX Regular</p>
+</article>
+<article class="karta">
+<div class="foto"><img src="img/p30582-400.webp" srcset="img/p30582-400.webp 400w, img/p30582-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="835" alt="Bluzy MX: Aero" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>95&nbsp;€</s> <b>69&nbsp;€</b></span></div>
+<h3>AERO</h3><p>Bluza MX Regular</p>
+</article></div>
+</div>
+<div class="grupa" id="koszulki">
+<div class="ghead"><h3 id="g2">T-shirty i bluzy z kapturem</h3><span>od 29&nbsp;€</span></div>
+<div class="tor" tabindex="0" aria-labelledby="g2"><article class="karta">
+<div class="foto"><img src="img/p35503-400.webp" srcset="img/p35503-400.webp 400w, img/p35503-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="830" alt="T-shirty i bluzy z kapturem: T-Shirt Wild" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>45&nbsp;€</s> <b>29&nbsp;€</b></span></div>
+<h3>T-SHIRT WILD</h3><p>czarny</p>
+</article>
+<article class="karta">
+<div class="foto"><img src="img/p35450-400.webp" srcset="img/p35450-400.webp 400w, img/p35450-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="830" alt="T-shirty i bluzy z kapturem: T-Shirt Camo" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>45&nbsp;€</s> <b>29&nbsp;€</b></span></div>
+<h3>T-SHIRT CAMO</h3><p>czarny</p>
+</article>
+<article class="karta">
+<div class="foto"><img src="img/p31055-400.webp" srcset="img/p31055-400.webp 400w, img/p31055-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="830" alt="T-shirty i bluzy z kapturem: Bluza Z Kapturem" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>99&nbsp;€</s> <b>69&nbsp;€</b></span></div>
+<h3>BLUZA Z KAPTUREM</h3><p>czarna</p>
+</article>
+<article class="karta">
+<div class="foto"><img src="img/p31119-400.webp" srcset="img/p31119-400.webp 400w, img/p31119-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="830" alt="T-shirty i bluzy z kapturem: Bluza Z Kapturem" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>99&nbsp;€</s> <b>69&nbsp;€</b></span></div>
+<h3>BLUZA Z KAPTUREM</h3><p>czerwona</p>
+</article></div>
+</div>
+<div class="grupa" id="pokrowce">
+<div class="ghead"><h3 id="g3">Pokrowce na siedziska</h3><span>od 29&nbsp;€</span></div>
+<div class="tor" tabindex="0" aria-labelledby="g3"><article class="karta">
+<div class="foto"><img src="img/p14949-400.webp" srcset="img/p14949-400.webp 400w, img/p14949-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="484" alt="Pokrowce na siedziska: Pokrowiec 4Mx" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>59&nbsp;€</s> <b>29&nbsp;€</b></span></div>
+<h3>POKROWIEC 4MX</h3><p>Uniwersalny, czarny</p>
+</article>
+<article class="karta">
+<div class="foto"><img src="img/p14965-400.webp" srcset="img/p14965-400.webp 400w, img/p14965-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="484" alt="Pokrowce na siedziska: Pokrowiec 4Mx" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>59&nbsp;€</s> <b>29&nbsp;€</b></span></div>
+<h3>POKROWIEC 4MX</h3><p>Uniwersalny, niebieski</p>
+</article>
+<article class="karta">
+<div class="foto"><img src="img/p20638-400.webp" srcset="img/p20638-400.webp 400w, img/p20638-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="484" alt="Pokrowce na siedziska: Pokrowiec 4Mx" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>59&nbsp;€</s> <b>29&nbsp;€</b></span></div>
+<h3>POKROWIEC 4MX</h3><p>Uniwersalny, czerwony</p>
+</article>
+<article class="karta">
+<div class="foto"><img src="img/p20650-400.webp" srcset="img/p20650-400.webp 400w, img/p20650-720.webp 720w" sizes="(max-width:640px) 70vw, 300px" width="720" height="484" alt="Pokrowce na siedziska: Pokrowiec 4Mx" loading="lazy" decoding="async"></div>
+<div class="szczelina"><span class="cena"><s>59&nbsp;€</s> <b>29&nbsp;€</b></span></div>
+<h3>POKROWIEC 4MX</h3><p>Uniwersalny, zielony</p>
+</article></div>
+</div>
+
+<p class="uwaga">Ceny ze sklepu promx4riders.com, sprawdzone 24.11.2026.</p>
+</div>
+</section>
+
+<section class="sek ciemny" id="tor" aria-labelledby="h-t">
+<div class="wrap">
+<div class="sek-head"><div><h2 id="h-t">Nasze okleiny na torze</h2></div><div class="strzalki" data-tor="g-tor"><button class="strz" type="button" aria-label="Poprzednie" data-kier="-1">&lt;</button><button class="strz" type="button" aria-label="Następne" data-kier="1">&gt;</button></div></div>
+<div class="galeria" id="g-tor" tabindex="0" aria-label="Zdjęcia zawodników i klientów">
+<button class="gfot" type="button" data-duze="img/tor-skok-760.webp" style="--r:760/748" aria-label="Powiększ: Dwóch zawodników na torze, jeden w skoku">
+<img src="img/tor-skok-480.webp" srcset="img/tor-skok-480.webp 480w, img/tor-skok-720.webp 720w, img/tor-skok-760.webp 760w" sizes="(max-width:640px) 260px, 380px" width="760" height="748" alt="Dwóch zawodników na torze, jeden w skoku" loading="lazy" decoding="async"></button>
+<button class="gfot" type="button" data-duze="img/tor-102-659.webp" style="--r:659/748" aria-label="Powiększ: Zawodnik z numerem 102 na zakręcie">
+<img src="img/tor-102-480.webp" srcset="img/tor-102-480.webp 480w, img/tor-102-659.webp 659w" sizes="(max-width:640px) 260px, 380px" width="659" height="748" alt="Zawodnik z numerem 102 na zakręcie" loading="lazy" decoding="async"></button>
+<button class="gfot" type="button" data-duze="img/tor-ktm-748.webp" style="--r:748/747" aria-label="Powiększ: Motocykl KTM w okleinach Racing">
+<img src="img/tor-ktm-480.webp" srcset="img/tor-ktm-480.webp 480w, img/tor-ktm-720.webp 720w, img/tor-ktm-748.webp 748w" sizes="(max-width:640px) 260px, 380px" width="748" height="747" alt="Motocykl KTM w okleinach Racing" loading="lazy" decoding="async"></button>
+<button class="gfot" type="button" data-duze="img/tor-las-668.webp" style="--r:668/748" aria-label="Powiększ: Zawodnik z numerem 102 w lesie">
+<img src="img/tor-las-480.webp" srcset="img/tor-las-480.webp 480w, img/tor-las-668.webp 668w" sizes="(max-width:640px) 260px, 380px" width="668" height="748" alt="Zawodnik z numerem 102 w lesie" loading="lazy" decoding="async"></button>
+<button class="gfot" type="button" data-duze="img/tor-345-795.webp" style="--r:795/747" aria-label="Powiększ: Zawodnik z numerem 345 przy hałdzie">
+<img src="img/tor-345-480.webp" srcset="img/tor-345-480.webp 480w, img/tor-345-720.webp 720w, img/tor-345-795.webp 795w" sizes="(max-width:640px) 260px, 380px" width="795" height="747" alt="Zawodnik z numerem 345 przy hałdzie" loading="lazy" decoding="async"></button>
+<button class="gfot" type="button" data-duze="img/tor-biala-497.webp" style="--r:497/747" aria-label="Powiększ: Zawodnik w białej bluzie przy motocyklu Beta">
+<img src="img/tor-biala-480.webp" srcset="img/tor-biala-480.webp 480w, img/tor-biala-497.webp 497w" sizes="(max-width:640px) 260px, 380px" width="497" height="747" alt="Zawodnik w białej bluzie przy motocyklu Beta" loading="lazy" decoding="async"></button>
+<button class="gfot" type="button" data-duze="img/tor-mlody1-558.webp" style="--r:558/747" aria-label="Powiększ: Młody zawodnik w skoku na torze">
+<img src="img/tor-mlody1-480.webp" srcset="img/tor-mlody1-480.webp 480w, img/tor-mlody1-558.webp 558w" sizes="(max-width:640px) 260px, 380px" width="558" height="747" alt="Młody zawodnik w skoku na torze" loading="lazy" decoding="async"></button>
+<button class="gfot" type="button" data-duze="img/tor-mlody3-490.webp" style="--r:490/747" aria-label="Powiększ: Młody zawodnik na motocyklu crossowym">
+<img src="img/tor-mlody3-480.webp" srcset="img/tor-mlody3-480.webp 480w, img/tor-mlody3-490.webp 490w" sizes="(max-width:640px) 260px, 380px" width="490" height="747" alt="Młody zawodnik na motocyklu crossowym" loading="lazy" decoding="async"></button>
+<button class="gfot" type="button" data-duze="img/tor-garaz-898.webp" style="--r:898/748" aria-label="Powiększ: Zawodniczka na zielonym motocyklu z numerem 119">
+<img src="img/tor-garaz-480.webp" srcset="img/tor-garaz-480.webp 480w, img/tor-garaz-720.webp 720w, img/tor-garaz-898.webp 898w" sizes="(max-width:640px) 260px, 380px" width="898" height="748" alt="Zawodniczka na zielonym motocyklu z numerem 119" loading="lazy" decoding="async"></button>
+</div>
+<p class="ert">Zdjęcia zawodników i klientów ProMX. Wspieramy m.in. <b>Enduro Racing Team</b>.</p>
+</div>
+</section>
+
+<section class="sek szary" id="opinie" aria-labelledby="h-o">
+<div class="wrap">
+<div class="sek-head"><div><h2 id="h-o">Opinie klientów</h2></div><div class="strzalki" data-tor="t-opinie"><button class="strz" type="button" aria-label="Poprzednie" data-kier="-1">&lt;</button><button class="strz" type="button" aria-label="Następne" data-kier="1">&gt;</button></div></div>
+<p style="margin:-18px 0 28px;color:var(--mu);max-width:640px">Opinie ze sklepu w oryginalnych językach, pod spodem tłumaczenie.</p>
+<div class="tor opinie" id="t-opinie" tabindex="0" aria-label="Opinie klientów">
+<figure class="opinia"><span class="jez">PL</span>
+<blockquote lang="pl">Firma na 5 gwiazdek. Bardzo szybka i sprawna obsługa i wysyłka. Super jakość i atrakcyjne ceny. Polecam.</blockquote>
+<figcaption><b>Michał</b> 02.04.2024</figcaption></figure>
+<figure class="opinia"><span class="jez">EN</span>
+<blockquote lang="en">Great team, very responsive to our wishes and very fast! The work is very good and the quality is excellent! I really recommend ProMX</blockquote><p class="tlum">Świetny zespół, szybko reaguje na nasze życzenia. Bardzo dobra praca i świetna jakość.</p>
+<figcaption><b>Baptiste Pretet</b> 13.03.2025</figcaption></figure>
+<figure class="opinia"><span class="jez">DE</span>
+<blockquote lang="de">Sehr schnelle Bearbeitung gute Kommunikation und sehr gute Qualität.</blockquote><p class="tlum">Bardzo szybka realizacja, dobry kontakt i bardzo dobra jakość.</p>
+<figcaption><b>Pascal</b> 01.01.2026</figcaption></figure>
+<figure class="opinia"><span class="jez">NL</span>
+<blockquote lang="nl">Zeer goede dikke kwaliteit stickers, plakt perfect... Heel wat stickerset geplakt, hier toch de beste ervaring mee.</blockquote><p class="tlum">Bardzo dobre, grube naklejki, kleją się idealnie. Nakleiłem już sporo zestawów, z tymi mam najlepsze doświadczenie.</p>
+<figcaption><b>Ricardo</b> 31.08.2024</figcaption></figure>
+<figure class="opinia"><span class="jez">IT</span>
+<blockquote lang="it">Molto veloci sulle grafiche totalmente personalizzate. Prodotti di buona qualità.</blockquote><p class="tlum">Bardzo szybko przy całkowicie indywidualnych grafikach. Produkty dobrej jakości.</p>
+<figcaption><b>Gianluca</b> 08.05.2024</figcaption></figure>
+<figure class="opinia"><span class="jez">SV</span>
+<blockquote lang="sv">Mycket bra som vanligt! Bra utbud, bra priser, snabb frakt, och bra hemsida!</blockquote><p class="tlum">Jak zwykle bardzo dobrze. Dobry wybór, dobre ceny, szybka wysyłka.</p>
+<figcaption><b>Mattias</b> 26.03.2024</figcaption></figure>
+</div>
+</div>
+</section>
+
+<section class="sek" id="projekt" aria-labelledby="h-j">
+<div class="wrap projekt">
+<div>
+<h2 id="h-j">Własny projekt</h2>
+<p class="wst">Masz logo sponsora, szkic albo pomysł na barwy? Prześlij plik, a zespół graficzny przygotuje projekt pod Twój motocykl.</p>
+<ul class="ceny">
+<li><span>Zestaw oklein według własnego projektu</span><b><s>180&nbsp;€</s>149&nbsp;€</b></li>
+<li><span>Numery startowe według własnego projektu</span><b><s>75&nbsp;€</s>59&nbsp;€</b></li>
+</ul>
+<p class="dane" id="kontakt"><b>ProMX4Riders s.c.</b><br>ul. Nowy Świat 33/13, 00-029 Warszawa<br>NIP 8511686853<br>
+<a href="mailto:contact@promx4riders.com">contact@promx4riders.com</a><br>
+<a href="https://www.facebook.com/promx4riders" rel="noopener" target="_blank">Facebook</a> &nbsp; <a href="https://www.instagram.com/promx4riders/" rel="noopener" target="_blank">Instagram</a></p>
+</div>
+<form class="form" id="formularz" novalidate>
+<h3>Zapytaj o projekt</h3>
+<div class="pole"><label for="f-imie">Imię</label><input id="f-imie" name="imie" autocomplete="given-name"></div>
+<div class="pole"><label for="f-mail">E-mail</label><input id="f-mail" name="email" type="email" autocomplete="email"></div>
+<div class="pole"><label for="f-moto">Marka i model</label><input id="f-moto" name="motocykl" placeholder="np. KTM SX 125"></div>
+<div class="pole"><label for="f-rok">Rocznik</label><input id="f-rok" name="rok" inputmode="numeric" placeholder="np. 2024"></div>
+<div class="pole cale"><label for="f-tresc">Opisz pomysł</label><textarea id="f-tresc" name="tresc" placeholder="Kolory, numer, imię, logotypy sponsorów"></textarea></div>
+<div class="pole cale"><label for="f-plik">Logo lub grafika</label><input id="f-plik" name="plik" type="file" accept=".ai,.pdf,.eps,.png,.jpg,.jpeg"><small>AI, PDF, EPS, PNG lub JPG (min. 600 x 600 px), do 10 MB</small></div>
+<button class="btn btn-cz" type="submit">Wyślij zapytanie</button>
+<p class="info" hidden role="status">To podgląd strony, formularz nie wysyła danych. W docelowym sklepie zapytanie trafi na contact@promx4riders.com.</p>
+</form>
+</div>
+</section>
+</main>
+
+<footer class="stopka">
+<div class="wrap">
+<div class="sgrid">
+<div><img src="img/promx-logo.png" width="320" height="101" alt="ProMX" style="width:110px" loading="lazy">
+<p style="margin:16px 0 0;max-width:330px">Okleiny, numery startowe i odzież motocrossowa z personalizacją.</p>
+<p class="jezyki"><b>PL</b> &nbsp;EN &nbsp;DE &nbsp;FR &nbsp;SV &nbsp;IT &nbsp;NL</p></div>
+<div><h3>Sklep</h3><ul><li><a href="#marki">Okleiny</a></li><li><a href="#reszta">Numery startowe</a></li><li><a href="#ubrania">Ubrania</a></li><li><a href="#pokrowce">Pokrowce</a></li><li><a href="#projekt">Własny projekt</a></li></ul></div>
+<div><h3>Informacje</h3><ul><li><a href="#" data-podglad-info>Regulamin</a></li><li><a href="#" data-podglad-info>Polityka prywatności</a></li><li><a href="#" data-podglad-info>Reklamacje i zwroty</a></li><li><a href="#" data-podglad-info>Specyfikacja folii i laminatu</a></li></ul></div>
+<div><h3>Kontakt</h3><ul><li><a href="mailto:contact@promx4riders.com">contact@promx4riders.com</a></li><li><a href="https://www.facebook.com/promx4riders" rel="noopener" target="_blank">Facebook</a></li><li><a href="https://www.instagram.com/promx4riders/" rel="noopener" target="_blank">Instagram</a></li></ul></div>
+</div>
+<div class="sdol"><span>© 2026 ProMX4Riders s.c.</span>
+<a class="wylinka-badge" href="https://wylinka.pl/?utm_source=promx4riders.com&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a></div>
+</div>
+</footer>
+<dialog class="lb" id="lb"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt=""><button type="button">Zamknij</button></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="app.js" defer></script>
+</body>
+</html>
